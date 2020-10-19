@@ -1,0 +1,60 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Leesburg",
+               "short_name" : "Leesburg",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Loudoun County",
+               "short_name" : "Loudoun County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Virginia",
+               "short_name" : "VA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Leesburg, VA, USA",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 39.136094,
+                  "lng" : -77.51364960000001
+               },
+               "southwest" : {
+                  "lat" : 39.066852,
+                  "lng" : -77.6026578
+               }
+            },
+            "location" : {
+               "lat" : 39.1156615,
+               "lng" : -77.56360149999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 39.136094,
+                  "lng" : -77.51364960000001
+               },
+               "southwest" : {
+                  "lat" : 39.066852,
+                  "lng" : -77.6026578
+               }
+            }
+         },
+         "partial_match" : true,
+         "place_id" : "ChIJuzk71YM9tokR873541YPkrE",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
