@@ -10,8 +10,7 @@ Java Home path is set properly
 # How to operate
 
 - Add addresses you desire to the file 'address_book.txt' (located in google-maps/src/google/maps)
-- In the google-maps/src focus, compile the code by typing 'javac main.java'
-- Run the main.java script by typing 'java main'
+- Run main.java (whether you compile it via command line, through eclipse, export as .jar, etc.)
 - Retrieve the coordinates.txt file (located in google-maps/src/google/maps)
 - Open the Google Earth Desktop
 - Click file, import, import the coordinates.txt file, ensure the delimiter is comma, the headers are longitude and lattitude, the values are float values, and you can further       change the styles of the plots (icons, colours, etc.)
