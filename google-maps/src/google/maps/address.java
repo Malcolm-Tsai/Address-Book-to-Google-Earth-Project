@@ -25,7 +25,7 @@ public class address {
 			coords_out.println("Lattitude, Longitude");
 			while ((address = reader.readLine()) != null) {
 				address = address.replaceAll(",$", "");
-				String key = "AIzaSyAk_GyrO3JsZof-gKKjTMxMz6YZnSJkxrU";
+				String key = "ENTER YOUR KEY HERE!";
 				String encoded_url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + URLEncoder.encode(address, StandardCharsets.UTF_8)+"&key="+key;
 				URL url = new URL(encoded_url);
 				BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
